@@ -1,4 +1,13 @@
 <!-- /templates/checkout.html -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16791284484"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-16791284484');
+</script>
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -136,22 +145,22 @@
             <!-- Delivery Details Section -->
             <div id="deliveryDetails" style="display: none;">
                 <h3>2 - Entrega</h3>
-                <label for="cep" class="form-label">CEP</label>
+                <label for="cep" class="form-label"><b>CEP</b></label>
                 <input type="text" id="cep" name="cep" class="form-control" placeholder="00000-000" required>
 
-                <label for="address" class="form-label">Endereço</label>
+                <label for="address" class="form-label"><b>Endereço</b></label>
                 <input type="text" id="address" name="address" class="form-control" placeholder="Rua/Av.">
 
-                <label for="number" class="form-label">Número</label>
+                <label for="number" class="form-label"><b>Número</b></label>
                 <input type="text" id="number" name="number" class="form-control" placeholder="Número da residência" required>
 
-                <label for="neighborhood" class="form-label">Bairro</label>
+                <label for="neighborhood" class="form-label"><b>Bairro</b></label>
                 <input type="text" id="neighborhood" name="neighborhood" class="form-control" placeholder="Bairro" required>
 
-                <label for="city" class="form-label">Cidade</label>
+                <label for="city" class="form-label"><b>Cidade</b></label>
                 <input type="text" id="city" name="city" class="form-control" placeholder="Cidade" required>
 
-                <label for="state" class="form-label">Estado</label>
+                <label for="state" class="form-label"><b>Estado</b></label>
                 <input type="text" id="state" name="state" class="form-control" placeholder="Estado" required>
 
                 <div id="freight-info">Correios - Frete grátis em até 9 dias úteis!</div>
