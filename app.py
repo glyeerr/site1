@@ -16,6 +16,18 @@ def homepage():
 def sucesso():
     return render_template("sucesso.html")
 
+@app.route('/sucess2')
+def sucesso():
+    return render_template("sucesso2.html")
+
+@app.route('/sucess3')
+def sucesso():
+    return render_template("sucesso3.html")
+
+@app.route('/sucess4')
+def sucesso():
+    return render_template("sucesso4.html")
+
 @app.route('/failure')
 def falha():
     return render_template("falha.html")
@@ -89,7 +101,7 @@ def create_preference2():
             }
         ],
         "back_urls": {
-            "success": urlsite+"/success",  # URL de sucesso
+            "success": urlsite+"/success2",  # URL de sucesso
             "failure": urlsite+"/failure",  # URL de falha
             "pending": urlsite+"/pending",  # URL de pendente
         },
@@ -122,7 +134,7 @@ def create_preference3():
             }
         ],
         "back_urls": {
-            "success": urlsite+"/success",  # URL de sucesso
+            "success": urlsite+"/success3",  # URL de sucesso
             "failure": urlsite+"/failure",  # URL de falha
             "pending": urlsite+"/pending",  # URL de pendente
         },
@@ -155,7 +167,7 @@ def create_preference4():
             }
         ],
         "back_urls": {
-            "success": urlsite+"/success",  # URL de sucesso
+            "success": urlsite+"/success4",  # URL de sucesso
             "failure": urlsite+"/failure",  # URL de falha
             "pending": urlsite+"/pending",  # URL de pendente
         },
