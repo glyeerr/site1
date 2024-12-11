@@ -17,15 +17,15 @@ def sucesso():
     return render_template("sucesso.html")
 
 @app.route('/sucess2')
-def sucesso():
+def sucesso2():
     return render_template("sucesso2.html")
 
 @app.route('/sucess3')
-def sucesso():
+def sucesso3():
     return render_template("sucesso3.html")
 
 @app.route('/sucess4')
-def sucesso():
+def sucesso4():
     return render_template("sucesso4.html")
 
 @app.route('/failure')
