@@ -50,9 +50,9 @@ def create_preference():
         "items": [
             {
                 "id": "1",
-                "title": "Produto de Teste",  # Nome do produto
+                "title": "1 Pote",  # Nome do produto
                 "quantity": 1,                # Quantidade
-                "unit_price": 1.00,          # Preço unitário
+                "unit_price": 99.99,          # Preço unitário
             }
         ],
         "back_urls": {
@@ -83,9 +83,9 @@ def create_preference2():
         "items": [
             {
                 "id": "2",
-                "title": "Produto de Teste",  # Nome do produto
+                "title": "3 Potes",  # Nome do produto
                 "quantity": 1,                # Quantidade
-                "unit_price": 1.00,          # Preço unitário
+                "unit_price": 147.00,          # Preço unitário
             }
         ],
         "back_urls": {
@@ -116,9 +116,9 @@ def create_preference3():
         "items": [
             {
                 "id": "3",
-                "title": "Produto de Teste",  # Nome do produto
+                "title": "5 Potes",  # Nome do produto
                 "quantity": 1,                # Quantidade
-                "unit_price": 1.00,          # Preço unitário
+                "unit_price": 197.00,          # Preço unitário
             }
         ],
         "back_urls": {
@@ -148,10 +148,10 @@ def create_preference4():
     payment_data = {
         "items": [
             {
-                "id": "1",
-                "title": "Produto de Teste",  # Nome do produto
+                "id": "4",
+                "title": "8 Potes",  # Nome do produto
                 "quantity": 1,                # Quantidade
-                "unit_price": 1.00,          # Preço unitário
+                "unit_price": 247.00,          # Preço unitário
             }
         ],
         "back_urls": {
